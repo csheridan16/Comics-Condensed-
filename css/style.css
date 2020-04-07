@@ -5,7 +5,21 @@ div#blueprint { background-color: transparent; }
   height: auto;
 }
 
-h2{font-size: 20pt;}
+body{margin: 0;}
+/* ---------------------------------fonts page-------------------------- */
+
+h2{font-size: 20pt;
+   font-family: 'digitalstrip_2.0_bbregular'; 
+   padding-left: 2.5em;}
+
+@font-face {
+    font-family: 'digitalstrip_2.0_bbregular';
+    src: url('digitalstrip2bb_reg-webfont.woff2') format('woff2'),
+         url('digitalstrip2bb_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 /* ---------------------------------home page-------------------------- */
@@ -21,6 +35,7 @@ h2{font-size: 20pt;}
 }
 
 .mascot{ 
+    padding-left: 2em;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -32,45 +47,47 @@ h2{font-size: 20pt;}
     grid-row-start: 1;
     grid-row-end: 1;}
 
-.intro2 {
+.titlecard{padding-left: 2em;
+           width: 90%;
+           }
+
+.speech-text{padding: 0.1em;}
+
+/* ------------bottom of eterrnity artwork------------ */
+
+#eternity {
   display: grid;
   grid-template-columns: 100 100;
-  background-color: #ffffff;
-  color: #444;
-}
+  background-color: #ffffff;}
 
-.mascot2{ 
+#eternity2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;}
+
+#eternity3{
+    padding-left: 5em;
+    width: 78%;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;}
 
-#titlecard{
-           margin-bottom: 0em;
-           padding-left: 2em;
-           height: 90%;
-           width: 90%;
-           }
-
-.speech-text{padding: 10px;}
-
-
-
 /* ------------speech bubble------------ */
 
-.speech-bubble {
+#speech-bubble {
 	position: relative;
 	background: #ffffff;
-	border-radius: 4em;
-    margin-top: 2em;
-    margin-right: 2em;
+	border-radius: 5em;
+    margin: 2em;
 }
 
-.speech-bubble:after {
+#speech-bubble:after {
 	content: '';
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 53%;
 	width: 0;
 	height: 0;
 	border: 54px solid transparent;
@@ -81,6 +98,28 @@ h2{font-size: 20pt;}
 	margin-left: -54px;
 }
 
+/* ------------speech bubble2------------ */
+
+#speech-bubblee {
+	position: relative;
+	background: #252525;
+	border-radius: .4em;
+}
+
+#speech-bubblee:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 23%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #252525;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-top: -20px;
+}
 
 /* ------------links to the pages------------ */
 
