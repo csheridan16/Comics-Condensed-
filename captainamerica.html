@@ -7,79 +7,190 @@
     <title>Captain America</title>
 </head> 
     
+<div class="navbar">
     
-<style>
-
-body { margin:0; }      
+    <div class="container">
+<div class="logo">
+  <img src="image/Final-Wordmark-comics-condensed.png" width="160"/> 
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Characters <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Captain America</a>
+      <a href="#">Fantastic four</a>
+      <a href="#">Spiderman</a>
+      <a href="#">Hulk</a>
+      <a href="#">Thor</a>    
+    </div>
+  </div> 
+  <a href="#home">Home</a>
+  
+</div>
+    </div> 
     
-.wrapper1 {
-  background-color: #764028;     
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
-}
-
-.section1 {
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
-
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
-}
-
-.parallax1::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-}
-/* The styling for the static div. */
-.static {   
-  background-image: url('image/cpt-america-orgin-prt-2.png');
-}
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-.bg1::after {
-  background-image: url('image/cpt-america-orgin-1.3.png');
-}
-
-
-</style>
-
-<main class="wrapper">
-  <section class="section parallax bg1">
-    <h1>Such Adorableness</h1>
-  </section>
-  <section class="section static">
-    <h1>Boring</h1>
-  </section>
-  <section class="section parallax bg2">
-    <h1>SO FWUFFY AWWW</h1>
-  </section>
-</main>
     
+<div class=title>
+    <h3>Captain America</h3>
+</div>    
+    
+<div class="overview">
+    
+   <div class="bio"> 
+       <p>hhh</p>
+   </div>    
+    
+   <div class="profilepic"> 
+       <p>hhh</p> 
+   </div>
+     
+</div>  
+    
+    
+    
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart orange">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="30, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">3</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart green">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="10, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage2">3</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart blue">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="60, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage2">3</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart orange">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="30, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage2">3</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart green">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="20, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage2">3</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart blue">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="90, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage2">3</text>
+    </svg>
+  </div>
+</div>
+    
+    
+  
+    
+    
+<div class="loved">
+    
+    <h4>Why is this character loved</h4>
+    
+    </div>
+    
+    
+    
+<div class="recommended">
+    
+   <div class="recommended1"> 
+       <p>hhh</p>
+   </div>    
+    
+   <div class="recommended2"> 
+       <p>hhh</p> 
+   </div>
+    
+    <div class="recommended3"> 
+       <p>hhh</p> 
+   </div>
+    
+    <div class="recommended4"> 
+       <p>hhh</p> 
+   </div>
+     
+</div>     
+
+    
+
 </html>    

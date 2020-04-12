@@ -6,13 +6,39 @@
         
     <title>Iron Man</title>
 </head> 
-
+    
+    
+<div class="navbar">
+    
+    <div class="container">
+<div class="logo">
+  <img src="image/Final-Wordmark-comics-condensed.png" width="150"/> 
+  </div>
+  <a href="timeline.html">Timeline</a>     
+  <div class="dropdown">
+    <button class="dropbtn">Characters <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="captainamerica.html">Captain America</a>
+      <a href="captainamerica.html">Iron Man</a>    
+      <a href="Fantastic%20Four.html">Fantastic four</a>
+      <a href="Thor.html">Thor</a> 
+      <a href="Hulk.html">Hulk</a>
+      <a href="Spiderman.html">Spiderman</a>    
+    </div>
+  </div> 
+  <a href="index.html">Home</a>
+  
+</div>
+    </div>    
 
 <style>
-
-body { margin:0; }      
     
-.wrapper1 {
+
+    
+.wrapperparallex {
+  padding-top: 6em;     
+  z-index: -1;    
   background-color: #764028;     
   /* The height needs to be set to a fixed value for the effect to work.
    * 100vh is the full height of the viewport. */
@@ -25,7 +51,7 @@ body { margin:0; }
   perspective: 2px;
 }
 
-.section1 {
+.section1 {   
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
@@ -55,35 +81,245 @@ body { margin:0; }
   /* Force the background image to fill the whole element. */
   background-size: 100%;
   /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
+  z-index: -2;
 }
 
 /* The styling for the static div. */
 .static1 {   
   background-image: url('image/iron-man-orgin-part-2.png');
-}
+  background-size: 100%; 
+  background-repeat: no-repeat;    
+    }
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
   background-image: url('image/iron-man-orgin-part-1.png');
-}
-
+  background-repeat: no-repeat; 
+    }
 
 </style>
+    
 
-<main class="wrapper1">
+  
+
+  
+    
+
+<main class="wrapperparallex">
   <section class="responsive section1 parallax1 bg1">
-    <h1>Such Adorableness</h1>
+
   </section>
   <section class="section1 static1">
-    <h1>Boring</h1>
-  </section>
-  <section class="section parallax bg2">
-    <h1>SO FWUFFY AWWW</h1>
+
   </section>
 </main>
     
+    <div class="ironmantitle">
     
+    <h5>Iron Man</h5>
+    
+    </div>
+
+    <div class="overview">
+    
+   <div class="bio"> 
+       <p>Stark returned to the United States having changed since his near death experience, striving to 
+           be a better person he stopped his company from manufacturing 
+           of weapons and put them on the path of inventing new technologies for the betterment of
+           all mankind. He streamlined the suit putting the armour 
+           to good use by battling evil doers as the super hero <b>The Invincible Iron-Man</b>. He constantly is redesigning his suit again and 
+         again over the years each version slightly better than the last.</p>
+       
+    
+       <p>Stark has saved the world countless times and is a founding member of the <b>'The Avengers'</b>.</p>
+       
+       
+       
+   </div>    
+    
+   <div class="profilepic"> 
+       <img src="image/iron-man-link.png" class="responsive"\>
+   </div>
+     
+</div>     
+    
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="60, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">6</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="60, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">6</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="50, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">5</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="60, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">6</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="50, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">5</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="60, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">6</text>
+    </svg>
+  </div>
+</div>
+    
+    
+  
+    
+    
+<div class="loved">
+    
+    <h4>Why is this character loved so much?</h4>
+    
+    <p><b>Has no actual superpowers</b></p>
+      <p>Despite fighting alongside literal gods and super-soilders Stark has no actual powers, under the armour he is simply a man but that hasn't stopped him fighting hulks, celestials and many others with power beyond comprehension and still coming out on top.</p>
+
+<p><i>“And I swear, as the man, Tony Stark-- As the Avenger fate chose to cast in the role of Iron Man-- That I will live to avenge those to avenge those whose lives have been lost through the ignorance of men like the man I once was. Or I will die trying!"</i></p>
+
+     <p><b>His complex personality</b></p>
+<p>Tony Stark has a massive personality and ego. On the surface he seems arrogant and sarcastic when in actuality he is one of the most caring and thoughtful heroes out there that is incredibly loyal and brave putting his life on the line to save the world a million times over.</p>
+
+    <p><b>Conquered Alcoholism</b></p>
+<p>Many heroes suffer from weakness and internal conflicts but none more than Tony Stark who has to deal with his weakness every second of everyday. While he has quit drinking stark for a long time would use the iron man armour when intoxicated and struggled for a long time with this addiction. But this is not an illness that simply goes away and the iron man comics never ignore this, it is an everyday internal uphill battle to stay on the wagon especially with the pressures he faces as a superhero.</p> 
+
+<p><b>Founding member of the avengers</b>
+<p>Together with Ant-Man, Wasp and Hulk, Iron Man helped form the Avengers to defend Earth against threats. He housed the Avengers in a mansion that was their base of operations for many many years and still funds the avengers team, its not cheap paying for all that spandex.</p>
+
+<p><b>Genius level intellect</b>
+<p>One thing that makes Stark so interesting is his intelligence, he invented his armour from a box of scraps in a cave and is constantly upgrading and tinkering with his inventions to prepare for any possible occasion. Tony Stark has foreseen the need for a Hulkbuster, Thorbuster, and all kinds of Marvel hero Busting Armors. He has even invented a sentient armor that has bonded with his skin.</p>
+    
+    </div>
+    
+    <div class="recommendedtitle">
+    <h4>Recommended Reading</h4>
+        
+        
+            
+        <p> Comics have a rich history but a very long one, here at <b>Comics Condensed</b>
+            we offer you a better option than just start at the beginning.
+            We offer you stories that show the characters at their best, 
+            stories that incapsulate their character perfectly to give
+            you an idea wether you would like to invest your time and money in.</p>
+        
+        <p><b>Click on the links below to purchase from Amazon:</b><p/>
+
+    </div>
+    
+    
+    
+<div class="recommended">
+    
+    
+    
+   <div class="recommended1"> 
+       <img src="image/reboot.jpg" class="responsive"\>   
+   </div>    
+    
+   <div class="recommended2"> 
+       <img src="image/demoninabottle.jpg" class="responsive"\> 
+   </div>
+    
+    <div class="recommended3"> 
+       <img src="image/directorofshield.jpg" class="responsive"\> 
+   </div>
+    
+    <div class="recommended4"> 
+       <img src="image/armourwars.jpg" class="responsive"\> 
+   </div>
+     
+</div> 
+        
 
     
 </html>    
