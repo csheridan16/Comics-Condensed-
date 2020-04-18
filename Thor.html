@@ -4,82 +4,312 @@
     
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
         
-    <title>Captain America</title>
+    <title>Thor</title>
 </head> 
     
+    <div class="navbar">
     
-<style>
-
-body { margin:0; }      
+    <div class="container">
+<div class="logo">
+  <img src="image/Final-Wordmark-comics-condensed.png" width="150"/> 
+  </div>
+        
+      <a href="timeline.html">Timeline</a>     
+  <div class="dropdown">
+    <button class="dropbtn">Characters <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="captainamerica.html">Captain America</a>
+      <a href="captainamerica.html">Iron Man</a>    
+      <a href="Fantastic%20Four.html">Fantastic four</a>
+      <a href="Hulk.html">Hulk</a>
+      <a href="Spiderman.html">Spiderman</a>    
+    </div>
+  </div> 
+  <a href="index.html">Home</a>
+       
+  
+</div>
+    </div> 
     
-.wrapper1 {
-  background-color: #764028;     
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
-}
-
-.section1 {
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
-
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
-}
-
-.parallax1::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-}
-/* The styling for the static div. */
-.static {   
-  background-image: url('image/cpt-america-orgin-prt-2.png');
-}
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-.bg1::after {
-  background-image: url('image/cpt-america-orgin-1.3.png');
-}
-
-
-</style>
-
-<main class="wrapper">
-  <section class="section parallax bg1">
-    <h1>Such Adorableness</h1>
-  </section>
-  <section class="section static">
-    <h1>Boring</h1>
-  </section>
-  <section class="section parallax bg2">
-    <h1>SO FWUFFY AWWW</h1>
-  </section>
-</main>
+ <div class="thortitle">
     
+    <h9>Thor</h9>
+    
+    </div>
+    
+    
+    
+
+    <div class="overview">
+    
+   <div class="bio"> 
+       <p>Thor is the son of the goddess of earth Gaea and Odin, king of the Asgadian pantheon. He was trained by the gods to be a mighty warrior and one day even take his fathers mantle and lead asgard. In his youth he was tested and proved worthy of the mighty magical hammer Mjolnir made from the mystical metal Uru. During the 9th Century, Thor spent time on Earth, leading Vikings into battle. It was not until Thor's loyal Vikings attacked a Christian monastery that he turned his back on his followers, leaving Earth and spending centuries in Asgard.</p>
+       
+    
+       <p>Then Thor's battle-hungry appetite led him to break a treaty between Asgard and the Frost Giants. Odin banished the young god of thunder to Earth without his memory, to teach Thor how to behave as a mere mortal. After a decade as a doctor, Donald Blake was drawn to Norway, and a subsequent encounter with a race of warmongering aliens named the Kronans. While hiding out in a cave, Blake found a mysterious wooden cane that turned out to be the enchanted hammer Mjolnir -- which transformed him back into the mighty Thor tHe God of thunder. Thor is forever torn between his divine home  the sacred halls of Asgard and the troubled lands of his adopted home, Earth.</p>
+       
+       
+   </div>    
+    
+   <div class="profilepic"> 
+       <img src="image/thor-link.png" class="responsive"\>
+   </div>
+     
+</div>     
+    
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="85, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">6</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="85, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">6</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">4</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="28, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">2</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="100, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">7</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="100, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">7</text>
+    </svg>
+  </div>
+</div>
+    
+    
+  
+    
+    
+<div class="loved">
+    
+    
+
+
+
+Self-Doubt
+Even though Thor is a God he is not a hubris one his hammer Mjolnir needs the user to be worthy in order to lift it and even though thor is more than worthy enough to lift his weapon what makes him relatable is that he always doubts this worthiness. 
+
+One of the coolest weapons in the universe
+Thors weapon of choice is the magical hammer Mjolnir created at the behest of the All-Father Odin by the dwarven blacksmiths. To create the weapon, the three dwarves used a magical forge located in the heart of a star. The process was so intense that the star itself exploded, the Earth was nearly destroyed, and the dinosaurs were wiped out. Capable of annihilating worlds, Mjolnir can warp reality, control storms, let him to fly at light speed, teleport, control the earth, and unleash his strongest attack, the God Blast.
+    
+    
+    <h4>Why is this character loved so much?</h4>
+    
+    <p><b>Family and his people</b></p>
+    
+    <p>Thor would do anything to protect the asgardian people or those of his adopted home on earth, he is a god that cares about those who pray to him. One of the most popular characters in the Thor comics is Loki, He is the half brother of thor and god of mischief. Loki is a villain but has his moments of being good too and what makes readers return time and time again is Thors conflicted relationship with his brother. 
+</p>
+    
+ 
+     <p><b>Powers of a God</b></p>
+<p>One of the strongest beings in the Marvel Universe, Thor’s power is legendary not only on Earth, but also in all the Nine Realms and throughout the cosmos. Achieving boosts in his power levels time and time again, from becoming king of asgard and having the odin force to being a herald of galactus.</p> 
+
+<p><b>Personality</b>
+    
+<p>A bigger than life Viking warrior and protector, with great heroic resolve and honor (he can be slightly arrogant at times, however). While one-dimensional, he can be quite cunning when circumstances need him to be.
+</p>
+    
+<p><b>Self-Doubt</b>
+<p>Even though Thor is a God he is not a hubris one his hammer Mjolnir needs the user to be worthy in order to lift it and even though thor is more than worthy enough to lift his weapon what makes him relatable is that he always doubts this worthiness. 
+</p>    
+    
+<p><b>One of the coolest weapons in the universe</b>
+<p>Thors weapon of choice is the magical hammer Mjolnir created at the behest of the All-Father Odin by the dwarven blacksmiths. To create the weapon, the three dwarves used a magical forge located in the heart of a star. The process was so intense that the star itself exploded, the Earth was nearly destroyed, and the dinosaurs were wiped out. Capable of annihilating worlds, Mjolnir can warp reality, control storms, let him to fly at light speed, teleport, control the earth, and unleash his strongest attack, the God Blast.
+</p>       
+    
+    </div>
+    
+    <div class="recommendedtitle">
+    <h4>Recommended Reading</h4>
+        
+        
+            
+        <p> Comics have a rich history but a very long one, here at <b>Comics Condensed</b>
+            we offer you a better option than just start at the beginning.
+            We offer you stories that show the characters at their best, 
+            stories that incapsulate their character perfectly to give
+            you an idea wether you would like to invest your time and money in.</p>
+        
+        <p><b>Click on the links below to purchase from Amazon:</b><p/>
+
+    </div>
+    
+    
+    
+<div class="recommended">
+    
+    
+    
+   <div class="recommended1"> 
+       
+       
+       <a href="https://www.amazon.co.uk/Stormbreaker-Saga-Beta-Ray-Bill-ebook/dp/B00PSN2GYC/ref=sr_1_6?crid=1WU2NBDBHJV70&dchild=1&keywords=beta+ray+bill&qid=1586811735&sprefix=beta+ray%2Caps%2C148&sr=8-6">
+           <img src="image/tumblr_87c97f5bf30d042da927a9d9be37af48_ad64da80_250.png" class="responsive hvr-shrink"\> </a>   
+   </div>    
+    
+   <div class="recommended2"> 
+       
+       <a href="https://www.amazon.co.uk/Thor-J-Michael-Straczynski-TPB/dp/0785117229/ref=sr_1_3?crid=2S3ADYZP08T85&dchild=1&keywords=thor+j+michael+straczynski&qid=1586811758&sprefix=thor+micha%2Caps%2C186&sr=8-3">
+           <img src="image/tumblr_e8470dd835e6c06bc78dbd90ba0ab400_2d812dec_250.png" class="responsive hvr-shrink"\> </a>
+   </div>
+    
+    <div class="recommended3"> 
+        
+        <a href="https://www.amazon.co.uk/Siege-Brian-Bendis-ebook/dp/B00AAJR2GG/ref=sr_1_1?crid=3T7KUCCPG7V24&dchild=1&keywords=marvel+seige&qid=1586811776&sprefix=seige+mar%2Caps%2C293&sr=8-1">
+            <img src="image/tumblr_a8b1c20cf88849eb2016ab8f8d5ffe1c_0b711cc5_250.png" class="responsive hvr-shrink"\> </a> 
+   </div>
+    
+    <div class="recommended4"> 
+        
+        <a href="https://www.amazon.co.uk/Thor-Jason-Aaron-Complete-Collection-ebook/dp/B07PGK432M/ref=sr_1_2?crid=18C3HHD43X2PY&dchild=1&keywords=thor+jason+aaron+complete+collection&qid=1586811792&sprefix=thor+jason+%2Caps%2C145&sr=8-2">
+            <img src="image/tumblr_dd56c21e791c7965c8aa2b4da37d5854_8d92d51f_250.png" class="responsive hvr-shrink"\> </a> 
+   </div>
+     
+</div>
+    
+    
+
+    
+    
+    
+<div class="row1 dark-blue">
+  <div>
+    <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep3" viewBox="0 0 1600 100" style="display: block;" data-height="100">
+<path class="" style="opacity: 1;fill: #CE111F;" d="M-40,71.627C20.307,71.627,20.058,32,80,32s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,26H-60V72L-40,71.627z"></path>
+<path class="" style="opacity: 1;fill: #1571BC;" d="M-40,83.627C20.307,83.627,20.058,44,80,44s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,14H-60V84L-40,83.627z"></path>
+<path class="" style="fill: #333;" d="M-40,95.627C20.307,95.627,20.058,56,80,56s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,138H-60V96L-40,95.627z"></path></svg>
+  </div>
+</div>
+    
+   
+    
+    
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.facebook.com/Comics-Condensed-104794567867133/"><img src="image/facebook.svg" class="responsive"\></a>
+				<a href="https://twitter.com/ComicsCondensed"><img src="image/twitter.svg" class="responsive"\></a>
+				<a href="https://www.instagram.com/comicscondensed/?hl=en"><img src="image/instagram.svg" class="responsive"\></a>
+				<a href="https://chrissheridan552.tumblr.com/"><img src="image/tumblr.svg" class="responsive"\></a>
+
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="index.html">Home</a>
+
+					<a href="#characters">Character Fact Files</a>
+
+					<a href="timeline.html">Timeline</a>
+                    
+                    
+				</p>
+                
+                <p3>About</p3>
+                <p>Comics Condensed is a final year project by Chris Sheridan for the interaction design course</p>
+                <p>at Ulster University. Comics Condensed is designed to intoduce new readers to Marvel Comics in</p>
+                 <p>a fun, engaging and creative way.</p>
+				<p>All Illustrations are my own, based of the characters of &copy; Marvel Comics</p>
+			</div>
+
+		</footer>    
+        
+
 </html>    

@@ -4,82 +4,294 @@
     
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
         
-    <title>Captain America</title>
+    <title>Spider-Man</title>
 </head> 
     
+    <div class="navbar">
     
-<style>
-
-body { margin:0; }      
+    <div class="container">
+<div class="logo">
+  <img src="image/Final-Wordmark-comics-condensed.png" width="150"/> 
+  </div>
+        
+      <a href="timeline.html">Timeline</a>     
+  <div class="dropdown">
+    <button class="dropbtn">Characters <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="captainamerica.html">Captain America</a>
+      <a href="captainamerica.html">Iron Man</a>    
+      <a href="Fantastic%20Four.html">Fantastic four</a>
+      <a href="Thor.html">Thor</a> 
+      <a href="Hulk.html">Hulk</a>
+    </div>
+  </div> 
+  <a href="index.html">Home</a>
+       
+  
+</div>
+    </div> 
     
-.wrapper1 {
-  background-color: #764028;     
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
-}
-
-.section1 {
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
-
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
-}
-
-.parallax1::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-}
-/* The styling for the static div. */
-.static {   
-  background-image: url('image/cpt-america-orgin-prt-2.png');
-}
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-.bg1::after {
-  background-image: url('image/cpt-america-orgin-1.3.png');
-}
-
-
-</style>
-
-<main class="wrapper">
-  <section class="section parallax bg1">
-    <h1>Such Adorableness</h1>
-  </section>
-  <section class="section static">
-    <h1>Boring</h1>
-  </section>
-  <section class="section parallax bg2">
-    <h1>SO FWUFFY AWWW</h1>
-  </section>
-</main>
+ <div class="spidertitle">
     
+    <h11>Spider-Man</h11>
+    
+    </div>
+
+    <div class="overview">
+    
+   <div class="bio"> 
+       
+       <p>Peter Parker grew up with his Uncle Ben and Aunt may after his parents died tragically in an airplane crash. Peter was an extremely smart child but a social outcast being branded as a nerd and bullied by his peers. One day during a scientific demonstration peter was attending, a Spider crossed the path of a particle accelerator's beam. Full of radiation the spider fell on to Parker's hand, broke his skin with its fangs, and died. His hand burning from the bite, Parker left the exhibition.</p>
+        
+       <p>He was greeted by a group of wrong-doers who inteded to do him harm, thats when his powers showed themselves. Tossing the gang members aside, Parker was shocked by his own display of strength. As he fled from them, he ran into the path of a speeding car, and leaped to safety about 30 feet up onto a nearby wall. To his growing surprise, he discovered that he was able to stick to the wall with his fingertips. </p>    
+        
+       <p>The first think that peter did unlike other heroes used his powers for his own personal gain, he entered a wrestling match that offered a prize for anyone who could remain in the ring at least 3 minutes with a professional wrestler, Just after the conclusion of the television show, a buglar, being pursued by a security guard, ran by Parker who impetuously allowed him to pass although he could have easily stopped him. When reprimanded by the guard, Parker arrogantly replied he was a professional performer and that chasing criminals was the guard's job. </p>
+        
+       <p>Parker promptly forgot the incident. A few days later, Parker returned home to find that his Uncle Ben had been murdered by a burglar. A police officer informed him that the burglar had been trailed to a nearby abandoned warehouse where the police had him trapped. Grief-stricken, Parker rushed to the warehouse to seek vengeance. At the warehouse Parker, as Spider-Man, easily captured the burglar and realized that he was the same person that he had allowed to run past him earlier that day in the TV studio. He realized that if he had acted responsibly earlier, he might have prevented the death of his uncle. Filled with remorse, he realized that with power comes responsibility, and he vowed to never shun that responsibility again.</p>
+    
+    
+       
+       
+   </div>    
+    
+   <div class="profilepic"> 
+       <img src="image/spiderman-link.png" class="responsive"\>
+   </div>
+     
+</div>     
+    
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="42, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">3</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="14, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">1</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">4</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">4</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="42, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">3</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">4</text>
+    </svg>
+  </div>
+</div>
+    
+    
+  
+    
+    
+<div class="loved">
+    
+    <h4>Why is this character loved so much?</h4>
+    
+    <p><b>Humour</b></p>
+     <p>Spider-mans humour is unparalleled. in between punches he’s always throwing puns and wisecracks at his foes. He ribs on his enemies about everything from their costumes to their plans. Which irritates them even more than being stuck upside down in a web until the cops arrive.</p>  
+
+     <p><b>Rouges gallery</b></p>
+    
+    <p>Spiderman has some of the best villains in comics. He doesn't have a single villain that you could call an absolute nemesis because all of his villains are well fleshed out characters with unique power sets that always give him a run for his money. </p>
+    
+    <p><b>Secret Identity</b></p>
+<p>Unlike a lot of heroes who have revealed their identity to the public or have just simple become the hero rather than the civilian they where before spiderman secret identity life as peter parker is just as important as his hero life. We see him struggle with rent, romance, high school, friends and bullies - struggles all humans can all relate to.</p>
+    
+<p><b>With great power comes great responsibility</b>
+<p>Spider-Man is a hero down to the bone, he'll always do what it takes to save people, no matter the personal cost. He's constantly missing personal commitments because he's out there, saving lives. He understands the weight of being a hero,
+
+    Peter Parker also understands that as much fun as his powers are, they also put a burden on him, and it takes a real hero to answer the call again and again. He might lose his way, or even retire, but Spider-Man will always do the right thing when the chips are down, no matter what because as his uncle Ben told him <i>“with great power comes great responsibility”</i></p>
+    </div>
+    
+    <div class="recommendedtitle">
+    <h4>Recommended Reading</h4>
+        
+          <p> Comics have a rich history but a very long one, here at <b>Comics Condensed</b>
+            we offer you a better option than just start at the beginning.
+            We offer you stories that show the characters at their best, 
+            stories that incapsulate their character perfectly to give
+            you an idea wether you would like to invest your time and money in.</p>
+        
+        <p><b>Click on the links below to purchase from Amazon:</b><p/>
+
+        
+    
+    </div>
+    
+    
+    
+<div class="recommended">
+    
+    
+    
+   <div class="recommended1">
+       
+       <a href="https://www.amazon.co.uk/Spider-Man-Death-Stacys-Amazing-1963-1998-ebook/dp/B00PSN1O86/ref=sr_1_1?crid=GM1HCUIGPOCW&dchild=1&keywords=the+night+gwen+stacy+died&qid=1586811515&sprefix=the+night+gwen+%2Caps%2C174&sr=8-1">
+           <img src="image/tumblr_82f64c14c5cf6fbf2e949f2922b5e99b_fe740ab8_250.png" class="responsive hvr-shrink"\>  </a> 
+   </div>    
+    
+   <div class="recommended2"> 
+       
+       <a href="https://www.amazon.co.uk/Spider-Man-Blue-Jeph-Loeb-ebook/dp/B00ET3ACDY/ref=sr_1_1?dchild=1&keywords=spiderman+blue&qid=1586811537&sr=8-1">
+           <img src="image/tumblr_199e51405ca0d7d7e75958ac4f344279_1541aa9d_250.png" class="responsive hvr-shrink"\> </a>
+   </div>
+    
+    <div class="recommended3">
+        
+        <a href="https://www.amazon.co.uk/Marvel-Knights-Spider-man-Spider-Man-1-12/dp/1905239386/ref=sr_1_2?dchild=1&keywords=spiderman+marvel+knights&qid=1586811552&sr=8-2">
+            <img src="image/tumblr_fc288235f32ff1841b50f63d6e7a1648_a80c7ffe_250.png" class="responsive hvr-shrink"\></a> 
+   </div>
+    
+    <div class="recommended4">
+        
+        <a href="https://www.amazon.co.uk/Spider-Man-Life-Story-ebook/dp/B07XTS6YHC/ref=sr_1_1?dchild=1&keywords=life+story+spiderman+book&qid=1586811601&sr=8-1">
+            <img src="image/tumblr_b0f610d1ae42eb51ccd7b372b32ab4c8_36748c55_250.png" class="responsive hvr-shrink"\> </a>
+   </div>
+     
+</div>
+    
+    
+
+    
+    
+    
+<div class="row1 dark-blue">
+  <div>
+    <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep3" viewBox="0 0 1600 100" style="display: block;" data-height="100">
+<path class="" style="opacity: 1;fill: #CE111F;" d="M-40,71.627C20.307,71.627,20.058,32,80,32s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,26H-60V72L-40,71.627z"></path>
+<path class="" style="opacity: 1;fill: #1571BC;" d="M-40,83.627C20.307,83.627,20.058,44,80,44s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,14H-60V84L-40,83.627z"></path>
+<path class="" style="fill: #333;" d="M-40,95.627C20.307,95.627,20.058,56,80,56s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,138H-60V96L-40,95.627z"></path></svg>
+  </div>
+</div>
+    
+   
+    
+    
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.facebook.com/Comics-Condensed-104794567867133/"><img src="image/facebook.svg" class="responsive"\></a>
+				<a href="https://twitter.com/ComicsCondensed"><img src="image/twitter.svg" class="responsive"\></a>
+				<a href="https://www.instagram.com/comicscondensed/?hl=en"><img src="image/instagram.svg" class="responsive"\></a>
+				<a href="https://chrissheridan552.tumblr.com/"><img src="image/tumblr.svg" class="responsive"\></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="index.html">Home</a>
+
+					<a href="#characters">Character Fact Files</a>
+
+					<a href="timeline.html">Timeline</a>
+                    
+                    
+				</p>
+                
+                <p3>About</p3>
+                <p>Comics Condensed is a final year project by Chris Sheridan for the interaction design course</p>
+                <p>at Ulster University. Comics Condensed is designed to intoduce new readers to Marvel Comics in</p>
+                 <p>a fun, engaging and creative way.</p>
+				<p>All Illustrations are my own, based of the characters of &copy; Marvel Comics</p>
+			</div>
+
+		</footer>    
+        
+
 </html>    

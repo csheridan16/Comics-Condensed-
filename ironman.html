@@ -19,8 +19,7 @@
     <button class="dropbtn">Characters <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="captainamerica.html">Captain America</a>
-      <a href="captainamerica.html">Iron Man</a>    
+      <a href="captainamerica.html">Captain America</a>   
       <a href="Fantastic%20Four.html">Fantastic four</a>
       <a href="Thor.html">Thor</a> 
       <a href="Hulk.html">Hulk</a>
@@ -34,64 +33,12 @@
 
 <style>
     
-
-    
-.wrapperparallex {
-  padding-top: 6em;     
-  z-index: -1;    
-  background-color: #764028;     
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
-}
-
-.section1 {   
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
-
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
-}
-
-.parallax1::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -2;
-}
-
-/* The styling for the static div. */
 .static1 {   
   background-image: url('image/iron-man-orgin-part-2.png');
   background-size: 100%; 
   background-repeat: no-repeat;    
     }
 
-/* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
   background-image: url('image/iron-man-orgin-part-1.png');
   background-repeat: no-repeat; 
@@ -100,13 +47,8 @@
 </style>
     
 
-  
-
-  
-    
-
 <main class="wrapperparallex">
-  <section class="responsive section1 parallax1 bg1">
+  <section class="responsive section1 parallax1 ironmanparallax bg1">
 
   </section>
   <section class="section1 static1">
@@ -153,7 +95,7 @@
           a 15.9155 15.9155 0 0 1 0 -31.831"
       />
       <path class="circle"
-        stroke-dasharray="60, 100"
+        stroke-dasharray="85, 100"
         d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -171,7 +113,7 @@
           a 15.9155 15.9155 0 0 1 0 -31.831"
       />
       <path class="circle"
-        stroke-dasharray="60, 100"
+        stroke-dasharray="85, 100"
         d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -189,7 +131,7 @@
           a 15.9155 15.9155 0 0 1 0 -31.831"
       />
       <path class="circle"
-        stroke-dasharray="50, 100"
+        stroke-dasharray="71, 100"
         d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -207,7 +149,7 @@
           a 15.9155 15.9155 0 0 1 0 -31.831"
       />
       <path class="circle"
-        stroke-dasharray="60, 100"
+        stroke-dasharray="85, 100"
         d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -225,7 +167,7 @@
           a 15.9155 15.9155 0 0 1 0 -31.831"
       />
       <path class="circle"
-        stroke-dasharray="50, 100"
+        stroke-dasharray="71, 100"
         d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -243,7 +185,7 @@
           a 15.9155 15.9155 0 0 1 0 -31.831"
       />
       <path class="circle"
-        stroke-dasharray="60, 100"
+        stroke-dasharray="85, 100"
         d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
@@ -302,23 +244,77 @@
     
     
     
-   <div class="recommended1"> 
-       <img src="image/reboot.jpg" class="responsive"\>   
+   <div class="recommended1">
+       
+       <a href="https://www.amazon.co.uk/Invincible-Iron-Man-Vol-2015-2016-ebook/dp/B01CPZWHTE/ref=sr_1_1?dchild=1&keywords=iron+man+reboot&qid=1586810461&sr=8-1"> <img src="image/reboot.jpg" class="responsive hvr-shrink"\> </a>
    </div>    
     
    <div class="recommended2"> 
-       <img src="image/demoninabottle.jpg" class="responsive"\> 
+       
+      <a href="https://www.amazon.co.uk/Iron-Man-Bottle-Marvel-Paperback/dp/0785120432/ref=sr_1_1?dchild=1&keywords=demon+in+a+bottle&qid=1586810489&sr=8-1"> <img src="image/demoninabottle.jpg" class="responsive hvr-shrink"\> </a>
    </div>
     
     <div class="recommended3"> 
-       <img src="image/directorofshield.jpg" class="responsive"\> 
+        
+       <a href="https://www.amazon.co.uk/Iron-Man-S-h-I-l-d-Collection/dp/1302907042/ref=sr_1_1?dchild=1&keywords=director+of+shield&qid=1586810519&sr=8-1"><img src="image/directorofshield.jpg" class="responsive hvr-shrink"\> </a>
    </div>
     
     <div class="recommended4"> 
-       <img src="image/armourwars.jpg" class="responsive"\> 
+        
+       <a href="https://www.amazon.co.uk/Iron-Man-Armor-Wars-Printing/dp/1302913913/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1586810534&sr=8-2"><img src="image/armourwars.jpg" class="responsive hvr-shrink"\> </a>
    </div>
      
-</div> 
+</div>
+    
+    
+
+    
+    
+    
+<div class="row1 dark-blue">
+  <div>
+    <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep3" viewBox="0 0 1600 100" style="display: block;" data-height="100">
+<path class="" style="opacity: 1;fill: #CE111F;" d="M-40,71.627C20.307,71.627,20.058,32,80,32s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,26H-60V72L-40,71.627z"></path>
+<path class="" style="opacity: 1;fill: #1571BC;" d="M-40,83.627C20.307,83.627,20.058,44,80,44s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,14H-60V84L-40,83.627z"></path>
+<path class="" style="fill: #333;" d="M-40,95.627C20.307,95.627,20.058,56,80,56s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,138H-60V96L-40,95.627z"></path></svg>
+  </div>
+</div>
+    
+   
+    
+    
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.facebook.com/Comics-Condensed-104794567867133/"><img src="image/facebook.svg" class="responsive"\></a>
+				<a href="https://twitter.com/ComicsCondensed"><img src="image/twitter.svg" class="responsive"\></a>
+				<a href="https://www.instagram.com/comicscondensed/?hl=en"><img src="image/instagram.svg" class="responsive"\></a>
+				<a href="https://chrissheridan552.tumblr.com/"><img src="image/tumblr.svg" class="responsive"\></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="index.html">Home</a>
+
+					<a href="#characters">Character Fact Files</a>
+
+					<a href="timeline.html">Timeline</a>
+                    
+                    
+				</p>
+                
+                <p3>About</p3>
+                <p>Comics Condensed is a final year project by Chris Sheridan for the interaction design course</p>
+                <p>at Ulster University. Comics Condensed is designed to intoduce new readers to Marvel Comics in</p>
+                 <p>a fun, engaging and creative way.</p>
+				<p>All Illustrations are my own, based of the characters of &copy; Marvel Comics</p>
+			</div>
+
+		</footer>    
         
 
     

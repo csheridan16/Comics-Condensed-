@@ -4,82 +4,294 @@
     
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
         
-    <title>Captain America</title>
+    <title>The Hulk</title>
 </head> 
     
+    <div class="navbar">
     
-<style>
-
-body { margin:0; }      
+    <div class="container">
+<div class="logo">
+  <img src="image/Final-Wordmark-comics-condensed.png" width="150"/> 
+  </div>
+        
+      <a href="timeline.html">Timeline</a>     
+  <div class="dropdown">
+    <button class="dropbtn">Characters <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="captainamerica.html">Captain America</a>
+      <a href="captainamerica.html">Iron Man</a>    
+      <a href="Fantastic%20Four.html">Fantastic four</a>
+      <a href="Thor.html">Thor</a> 
+      <a href="Spiderman.html">Spiderman</a>    
+    </div>
+  </div> 
+  <a href="index.html">Home</a>
+       
+  
+</div>
+    </div> 
     
-.wrapper1 {
-  background-color: #764028;     
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
-}
-
-.section1 {
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
-
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
-}
-
-.parallax1::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-}
-/* The styling for the static div. */
-.static {   
-  background-image: url('image/cpt-america-orgin-prt-2.png');
-}
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-.bg1::after {
-  background-image: url('image/cpt-america-orgin-1.3.png');
-}
-
-
-</style>
-
-<main class="wrapper">
-  <section class="section parallax bg1">
-    <h1>Such Adorableness</h1>
-  </section>
-  <section class="section static">
-    <h1>Boring</h1>
-  </section>
-  <section class="section parallax bg2">
-    <h1>SO FWUFFY AWWW</h1>
-  </section>
-</main>
+ <div class="hulktitle">
     
+    <h10>The Hulk</h10>
+    
+    </div>
+
+    <div class="overview">
+    
+   <div class="bio"> 
+       <p>Bruce Banner had a very tough upbringing, his father Dr. Brian Banner, an atomic scientist hated him with a passion due to an insane jealousy for Bruce’s mother loving him more than she did her husband. Brian Banner finally murdered Rebecca and was placed in a mental hospital. Bruce’s mind suffered great trauma resulting in dissociative identity disorder his personalities would later take on a life of their own as a big green monster.</p>
+       
+       <p>Bruce grew up to become an expert in nuclear physics working at a research facility in the middle of the desert in new Mexico. In his tenure at the United States Defense Department base Banner designed and oversaw construction of the "gamma bomb" or "G-bomb," a nuclear weapon that had a high gamma radiation output. During a test of this new bomb banner noticed a civilian had breached security and had entered the soon to be bomb site. </p>
+       
+       <p>Banner reached the teen named Rick Jones throwing him into a protective trench in the nick of time, but Banner wasn't so lucky. The Gamma bomb detonated and bombarded Banner with intense waves of radiation, Due to an unknown genetic factor in his body, Banner was not killed by the radiation, which instead caused him to transform frequently into the vastly powerful, green-skinned beast named "the Hulk" by the military present at the test site.</p>
+       
+   </div>    
+    
+   <div class="profilepic"> 
+       <img src="image/hulk-link.png" class="responsive"\>
+   </div>
+     
+</div>     
+    
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="100, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">7</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="71, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">5</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">4</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="85, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">6</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="42, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">3</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="100, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">7</text>
+    </svg>
+  </div>
+</div>
+    
+    
+  
+    
+    
+<div class="loved">
+    
+    <h4>Why is this character loved so much?</h4>
+    
+    <p><b>Bruce Banner will never have a happy ending</b></p>
+    
+    <p>The sad reality of banner is that the hulk can never truly be happy, every time he goes outside he knows he is risking the life of the people around him. He is constantly reminded of the destruction the hulk has caused, reminded of the lives he’s ruined. This is why he mostly travels the roads, never settling in one place for long, because eventually the hulk will go rouge again. This makes the story of banner an undoubtable tragedy because even though he plays the hero he knows deep down the hulk will turn again its only a matter of time. This is the tragedy of his character he still feels the need to protect people despite how much they fear him and try to hurt him.</p>
+
+    <p><i>“I've been "cured" before. And the Hulk always found a way back. I have to keep focus. Stay in control. Slow my breathing. Lower my heart rate. Push down these boiling emotions... because no matter what those machines say, I can still feel him, just under the skin... or can I?“</i></p>
+
+     <p><b>Dissociative identity disorder</b></p>
+
+<p>The character is essentially many different characters due to banner having dissociative identity disorder due to his traumatic childhood and each personality manifests as a hulk. Some of his different personalities are:</p>   
+<p>Bruce Banner: A brilliant scientist whose superior knowledge of gamma radiation and the original personality</p>     
+<p>Savage Hulk: A huge, angry, green man, who Bruce turns into whenever he gets mad. Not actually evil, but super strong, angry, and not very rational. Low intelligence. Embodies Bruce's anger and inner child.</p>     
+<p>Joe Fixit: A huge grey man, who Bruce turns into at night. Super-strong, but not to the extent of Savage; intelligent and crafty, but lacks Bruce's genius. Enjoys life's baser pleasures - good food, fine clothes, and alcohol. Represents Bruce's antiheroic aspects.</p> 
+<p>Professor Hulk:. A Hulk possessing Savage's strength, Joe's cunning, and Bruce's intelligence. Was apparently a fusion of the three, but turned out to be another alternate personality.Represents Bruce's idealised vision of himself.</p> 
+<p>Devil Hulk: A reptilian Hulk that embodies Bruce's evil aspects. Regularly tries to break out, but is held in check by the other personalities. Wants to destroy the world.</p>      
+    
+    
+    <p><b>Because Hulk is strongest one there is</b></p>
+    <p>The interesting thing about the hulk is that the angrier he gets the more powerful he becomes and due to the tragic life of bruce banner the hulk has become incredibly powerful over the years, the most powerful form being that of world breaker hulk who’s every step shook the whole eastern seaboard and took on every hero in new york and won.</p>
+    
+
+    </div>
+    
+    <div class="recommendedtitle">
+    <h4>Recommended Reading</h4>
+        
+        
+            
+        <p> Comics have a rich history but a very long one, here at <b>Comics Condensed</b>
+            we offer you a better option than just start at the beginning.
+            We offer you stories that show the characters at their best, 
+            stories that incapsulate their character perfectly to give
+            you an idea wether you would like to invest your time and money in.</p>
+        
+        <p><b>Click on the links below to purchase from Amazon:</b><p/>
+
+    </div>
+    
+    
+    
+<div class="recommended">
+    
+    
+    
+   <div class="recommended1"> 
+       
+       <a href="https://www.amazon.co.uk/Hulk-End-Incredible-ebook/dp/B00PSN1IXW/ref=sr_1_1?dchild=1&keywords=the+hulk+the+end&qid=1586811670&sr=8-1">
+           <img src="image/Incrediblehulktheend1.jpg" class="responsive hvr-shrink"\> </a>  
+   </div>    
+    
+   <div class="recommended2"> 
+       
+       <a href="https://www.amazon.co.uk/Planet-Hulk-Omnibus-Greg-Pak/dp/1905239661/ref=sr_1_2?dchild=1&keywords=planet+hulk&qid=1586811686&sr=8-2">
+           <img src="image/51vwyoQisaL.jpg" class="responsive hvr-shrink"\> </a>
+   </div>
+    
+    <div class="recommended3"> 
+        
+        <a href="https://www.amazon.co.uk/WORLD-WAR-HULK-Greg-Pak/dp/1905239777/ref=sr_1_1?crid=38C0TX8JFFUBG&dchild=1&keywords=world+war+hulk&qid=1586811702&sprefix=world+hulk%2Caps%2C218&sr=8-1">
+            <img src="image/220px-World_War_Hulk_1.jpg" class="responsive hvr-shrink"\></a> 
+   </div>
+    
+    <div class="recommended4"> 
+        
+        <a href="https://www.amazon.co.uk/Immortal-Hulk-Omnibus-Al-Ewing/dp/1846533600/ref=sr_1_1?dchild=1&keywords=immortal+hulk&qid=1586811716&sr=8-1">
+            <img src="image/clean-3.jpg" class="responsive hvr-shrink"\></a> 
+   </div>
+     
+</div>
+    
+    
+
+    
+    
+    
+<div class="row1 dark-blue">
+  <div>
+    <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep3" viewBox="0 0 1600 100" style="display: block;" data-height="100">
+<path class="" style="opacity: 1;fill: #CE111F;" d="M-40,71.627C20.307,71.627,20.058,32,80,32s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,26H-60V72L-40,71.627z"></path>
+<path class="" style="opacity: 1;fill: #1571BC;" d="M-40,83.627C20.307,83.627,20.058,44,80,44s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,14H-60V84L-40,83.627z"></path>
+<path class="" style="fill: #333;" d="M-40,95.627C20.307,95.627,20.058,56,80,56s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,138H-60V96L-40,95.627z"></path></svg>
+  </div>
+</div>
+    
+   
+    
+    
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.facebook.com/Comics-Condensed-104794567867133/"><img src="image/facebook.svg" class="responsive"\></a>
+				<a href="https://twitter.com/ComicsCondensed"><img src="image/twitter.svg" class="responsive"\></a>
+				<a href="https://www.instagram.com/comicscondensed/?hl=en"><img src="image/instagram.svg" class="responsive"\></a>
+				<a href="https://chrissheridan552.tumblr.com/"><img src="image/tumblr.svg" class="responsive"\></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="index.html">Home</a>
+
+					<a href="#characters">Character Fact Files</a>
+
+					<a href="timeline.html">Timeline</a>
+                    
+                    
+				</p>
+                
+                <p3>About</p3>
+                <p>Comics Condensed is a final year project by Chris Sheridan for the interaction design course</p>
+                <p>at Ulster University. Comics Condensed is designed to intoduce new readers to Marvel Comics in</p>
+                 <p>a fun, engaging and creative way.</p>
+				<p>All Illustrations are my own, based of the characters of &copy; Marvel Comics</p>
+			</div>
+
+		</footer>    
+        
+
 </html>    

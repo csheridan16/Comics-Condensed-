@@ -4,82 +4,660 @@
     
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
         
-    <title>Captain America</title>
+    <title>Fantastic Four</title>
 </head> 
     
+   
+<div class="navbar">
     
+    <div class="container">
+<div class="logo">
+  <img src="image/Final-Wordmark-comics-condensed.png" width="150"/> 
+  </div>
+  <a href="timeline.html">Timeline</a>     
+  <div class="dropdown">
+    <button class="dropbtn">Characters <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="captainamerica.html">Captain America</a>   
+      <a href="captainamerica.html">Iron Man</a>  
+      <a href="Thor.html">Thor</a> 
+      <a href="Hulk.html">Hulk</a>
+      <a href="Spiderman.html">Spiderman</a>    
+    </div>
+  </div> 
+  <a href="index.html">Home</a>
+  
+</div>
+    </div>    
+
 <style>
-
-body { margin:0; }      
     
-.wrapper1 {
-  background-color: #764028;     
-  /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-  height: 100vh;
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-  overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: 2px;
-}
+.static3 {   
+  background-image: url('image/fanastic-four-prt-2.png');
+  background-size: 100%; 
+  background-repeat: no-repeat;    
+    }
 
-.section1 {
-  /* Needed for children to be absolutely positioned relative to the parent. */
-  position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
-
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 0 0 5px #000;
-}
-
-.parallax1::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-}
-/* The styling for the static div. */
-.static {   
-  background-image: url('image/cpt-america-orgin-prt-2.png');
-}
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-.bg1::after {
-  background-image: url('image/cpt-america-orgin-1.3.png');
-}
-
+.bg3::after {
+  background-image: url('image/fanastic-four.png');
+  background-repeat: no-repeat; 
+    }
 
 </style>
+    
 
-<main class="wrapper">
-  <section class="section parallax bg1">
-    <h1>Such Adorableness</h1>
+<main class="wrapperparallex">
+  <section class="responsive section1 parallax1 ffparallax bg3">
+
   </section>
-  <section class="section static">
-    <h1>Boring</h1>
-  </section>
-  <section class="section parallax bg2">
-    <h1>SO FWUFFY AWWW</h1>
+  <section class="section1 static3">
+
   </section>
 </main>
+    
+    <div class="fantastictitle">
+    
+        <h12>Fantastic Four</h12>
+    
+    </div>
+
+    <div class="overview">
+    
+   <div class="bio"> 
+       <p>Reed discovered he could stretch his body to ridiculous lengths being able to convert his entire body into a highly malleable state at will, allowing him to deform, and reform himself into virtually any shape and took up the mantle Mr Fantastic, Sue was able to bend light waves allowing her to render herself and other objects invisible. as well as generate forcefields with her mind, Johnny could now engulf his entire body in flames, is able to fly, can absorb fire harmlessly into his own body, and can control any nearby fire by sheer force of will however all appeared normal when not using their powers, ben was not so lucky, he was transformed into an orange-colored, thick-skinned, heavily muscled, superhumanly strong Thing.
+
+Together they were the Fantastic Four, Earth's first family of super heroes. </p>
+       
+       
+   </div>    
+    
+   <div class="profilepic"> 
+       <img src="image/ff-link.png" class="responsive"\>
+   </div>
+     
+</div>     
+    
+    <div id="statstitle">
+        
+<h4>Invisible Woman-Power Level</h4>  
+        </div>
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="71, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">5</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="14, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">1</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="42, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">3</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="85, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">6</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="28, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">2</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="28, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">2</text>
+    </svg>
+  </div>
+</div>
+    
+    
+<div id="statstitle">
+<h4>Sue Richards-Power Level</h4>  
+        </div>
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="85, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">6</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="100, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">7</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="71, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">5</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="71, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">5</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="71, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">5</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">4</text>
+    </svg>
+  </div>
+</div>    
+    
+  <div id="statstitle">
+      
+<h4>Human Torch-Power Level</h4>  
+        </div>
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">4</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="86, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">6</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">4</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">4</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="71, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">5</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">4</text>
+    </svg>
+  </div>
+</div>
+    
+    <div id="statstitle">
+        
+<h4>The Thing-Power Level</h4>  
+        </div>
+    
+<div class="stats">
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart durability">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="85, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Durability</text>
+        <text x="18" y="26" class="percentage2">6</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Energy">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="14, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Energy</text>
+        <text x="18" y="26" class="percentage3">1</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Fighting">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="57, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Fighting skills</text>
+        <text x="18" y="26" class="percentage4">4</text>
+    </svg>
+  </div>
+        
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Intelligence">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="28, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Intelligence</text>
+        <text x="18" y="26" class="percentage5">2</text>
+    </svg>
+  </div>
+  
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Speed">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="28, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Speed</text>
+        <text x="18" y="26" class="percentage6">2</text>
+    </svg>
+  </div>
+
+  <div class="single-chart">
+    <svg viewBox="0 0 36 36" class="circular-chart Strength">
+      <path class="circle-bg"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <path class="circle"
+        stroke-dasharray="85, 100"
+        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+      />
+      <text x="18" y="18" class="percentage">Strength</text>
+        <text x="18" y="26" class="percentage7">6</text>
+    </svg>
+  </div>
+</div>
+    
+    
+<div class="loved">
+    
+    <h4>Why are these character's loved so much?</h4>
+    
+    <p><b>They are a family</b></p>
+     <p>First and foremost, before they are a superhero team they are a family. The Fantastic Four stories are a family of adventurers who occasionally take a break from scientific adventuring to save the world, or the universe on a good day. The family dynamic is a huge part of what makes their comic different, and the scientific adventuring is a good thematic break from the typical superhero story.</p>
+
+    
+     <p><b>Best catchphrases in comics</b></p>
+<p>Johnny storm and ben grimm have two of the best catchphrases in all of comics, Flame on and its clobbering time.
+
+</p>
+    
+    <p><b>The Fantastic Four Don’t Have To Do This</b></p>
+<p>The best thing about the Fantastic Four is, unlike many other heroes in the marvel universe is that they don’t have a dark event that made them swear vengeance on those who do the world harm. The Fantastic Four have no such driving force simply put, it’s patriotic altruism and an insatiable desire to learn that guides the team. This family chooses to save earth again and again. They just choose to be heroes. That’s just who they are.</p>
+    
+    <p><b>Doom</b></p>
+    <p>The FF have one of the best if not the best villain in the whole of marvel, victor von doom. Dr Doom is a scarred man incased in an armour that rules over his country of latveria and is the ff’s arch enemy, specifically reeds. Doom has been elevated to the god of the entire mulitverse and thats just a small fraction of his many feats over the years.</p>
+
+    </div>
+    
+    <div class="recommendedtitle">
+    <h4>Recommended Reading</h4>
+        
+        
+            
+        <p> Comics have a rich history but a very long one, here at <b>Comics Condensed</b>
+            we offer you a better option than just start at the beginning.
+            We offer you stories that show the characters at their best, 
+            stories that incapsulate their character perfectly to give
+            you an idea wether you would like to invest your time and money in.</p>
+        
+        <p><b>Click on the links below to purchase from Amazon:</b><p/>
+
+    </div>
+    
+    
+    
+<div class="recommended">
+    
+    
+    
+   <div class="recommended1">
+       
+       <a href="https://www.amazon.co.uk/Fantastic-Four-Epic-Collection-1961-1996-ebook/dp/B07FK4V1LV/ref=sr_1_4?crid=UN7SJO883IIL&dchild=1&keywords=fantastic+four+galactus&qid=1586811102&sprefix=the+galactus+fantas%2Caps%2C153&sr=8-4">
+           <img src="image/tumblr_8473f5a89c31e84b2d86b26282259627_bdfd711c_250.png" class="responsive hvr-shrink"\> </a>  
+   </div>    
+    
+   <div class="recommended2">
+       
+       <a href="https://www.amazon.co.uk/Fantastic-Four-Unthinkable-v-1/dp/1905239130/ref=sr_1_1?crid=2L2X8ALQ02BLE&dchild=1&keywords=fantastic+four+unthinkable&qid=1586811122&sprefix=fantastic+four+unthinkabl%2Caps%2C241&sr=8-1">
+           <img src="image/tumblr_88d7dd19583aa37b33a082d522aa2d1b_69048fbe_250.png" class="responsive hvr-shrink"\> </a>
+   </div>
+    
+    <div class="recommended3"> 
+        
+      <a href="https://www.amazon.co.uk/Fantastic-Four-Jonathan-Hickman-Collection/dp/1302913360/ref=sr_1_1?dchild=1&keywords=fantastic+four+hickman&qid=1586811137&sr=8-1"> 
+          <img src="image/tumblr_ef36bf591d75229a1d80f00d94e838ff_32b0dfcf_250.png" class="responsive hvr-shrink"\> </a>
+   </div>
+    
+    <div class="recommended4"> 
+        
+       <a href="https://www.amazon.co.uk/Fantastic-Four-Vol-Fourever-2018-ebook/dp/B07MBQP83T/ref=sr_1_2?crid=19M1K38XBO57O&dchild=1&keywords=fantastic+four+dan+slott&qid=1586811154&sprefix=fantastic+four+dan+s%2Caps%2C166&sr=8-2">
+           <img src="image/51O2msmYUPL._SY346_.jpg" class="responsive hvr-shrink"\> </a>
+   </div>
+     
+</div>
+    
+    
+
+    
+    
+    
+<div class="row1 dark-blue">
+  <div>
+    <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep3" viewBox="0 0 1600 100" style="display: block;" data-height="100">
+<path class="" style="opacity: 1;fill: #CE111F;" d="M-40,71.627C20.307,71.627,20.058,32,80,32s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,26H-60V72L-40,71.627z"></path>
+<path class="" style="opacity: 1;fill: #1571BC;" d="M-40,83.627C20.307,83.627,20.058,44,80,44s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,14H-60V84L-40,83.627z"></path>
+<path class="" style="fill: #333;" d="M-40,95.627C20.307,95.627,20.058,56,80,56s60.003,40,120,40s59.948-40,120-40s60.313,40,120,40s60.258-40,120-40s60.202,40,120,40s60.147-40,120-40s60.513,40,120,40s60.036-40,120-40c59.964,0,60.402,40,120,40s59.925-40,120-40s60.291,40,120,40s60.235-40,120-40s60.18,40,120,40s59.82,0,59.82,0l0.18,138H-60V96L-40,95.627z"></path></svg>
+  </div>
+</div>
+    
+   
+    
+    
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.facebook.com/Comics-Condensed-104794567867133/"><img src="image/facebook.svg" class="responsive"\></a>
+				<a href="https://twitter.com/ComicsCondensed"><img src="image/twitter.svg" class="responsive"\></a>
+				<a href="https://www.instagram.com/comicscondensed/?hl=en"><img src="image/instagram.svg" class="responsive"\></a>
+				<a href="https://chrissheridan552.tumblr.com/"><img src="image/tumblr.svg" class="responsive"\></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="index.html">Home</a>
+
+					<a href="#characters">Character Fact Files</a>
+
+					<a href="timeline.html">Timeline</a>
+                    
+                    
+				</p>
+                
+                <p3>About</p3>
+                <p>Comics Condensed is a final year project by Chris Sheridan for the interaction design course</p>
+                <p>at Ulster University. Comics Condensed is designed to intoduce new readers to Marvel Comics in</p>
+                 <p>a fun, engaging and creative way.</p>
+				<p>All Illustrations are my own, based of the characters of &copy; Marvel Comics</p>
+			</div>
+
+		</footer>    
+        
+    
+
     
 </html>    
